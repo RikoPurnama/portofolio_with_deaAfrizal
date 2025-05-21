@@ -80,7 +80,7 @@ const HeroDetail = () => {
           </div>
         </div>
 
-        <div className="flex w-[40%] flex-col gap-4 pl-4 max-xl:w-[50%] mt-1.5 max-md:mt-14 max-md:w-full">
+        <div className="flex w-[40%] flex-col gap-4 md:pl-4 max-xl:w-[50%] mt-1.5 max-md:mt-14 max-md:w-full">
           <div className="md:mx-auto mt-16 hidden gap-1 text-(--text-color-black) max-xl:flex max-xl:justify-center">
             {viewListSkills()}
           </div>

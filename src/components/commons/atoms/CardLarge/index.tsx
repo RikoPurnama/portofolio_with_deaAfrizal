@@ -15,7 +15,7 @@ const CardLarge = ({ img, tech, index, onClick }: any) => {
   );
 
   return (
-    <div className="relative flex flex-col h-46 w-full justify-center items-center rounded-3xl p-4 shadow-xl transition-all duration-300 ease-in-out hover:scale-101 hover:shadow-lg overflow-hidden group">
+    <div className="relative flex flex-col gap-5 h-46 w-full justify-center items-center rounded-3xl p-4 shadow-xl transition-all duration-300 ease-in-out hover:scale-101 hover:shadow-lg overflow-hidden group">
       <div className="w-full flex justify-between">
         <img
           src={img}
